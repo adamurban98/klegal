@@ -124,14 +124,6 @@ section{padding:100px 0}
 
 /* approach */
 .approach{background:var(--ink);color:var(--paper);margin:0 -100vw;padding:110px 100vw;position:relative;overflow:hidden}
-.approach::before{
-  content:"";position:absolute;inset:0;z-index:0;
-  background:url('img/kosice.png') center 30%/cover no-repeat;
-  filter:grayscale(100%) contrast(1.05);
-  opacity:.16;
-  mask-image:linear-gradient(to bottom,transparent 0%,#000 35%,#000 100%);
-  -webkit-mask-image:linear-gradient(to bottom,transparent 0%,#000 35%,#000 100%);
-}
 .approach .inner{position:relative;z-index:1}
 .approach .inner{max-width:var(--max);margin:0 auto;padding:0 32px}
 .approach .eyebrow{color:#9c9b98}
@@ -158,11 +150,11 @@ section{padding:100px 0}
   height:clamp(220px,32vw,440px);
   background:url('kosice.png') center 40%/cover no-repeat;
   filter:grayscale(100%) contrast(1.04);
-  -webkit-mask-image:linear-gradient(to bottom,transparent 0%,#000 46%,#000 82%,transparent 100%);
-  mask-image:linear-gradient(to bottom,transparent 0%,#000 46%,#000 82%,transparent 100%);
+  -webkit-mask-image:linear-gradient(to bottom,transparent 0%,#000 55%,#000 100%);
+  mask-image:linear-gradient(to bottom,transparent 0%,#000 55%,#000 100%);
 }
 
-footer{border-top:1px solid var(--line);padding:40px 0;margin-top:40px}
+footer{padding:40px 0}
 
 /* cenník */
 .price-intro{max-width:62ch;font-size:1.05rem;color:#2a2a2a;margin-bottom:14px}
