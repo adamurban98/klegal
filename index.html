@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="favicon.png">
 <title>K Legal — advokátska kancelária | JUDr. Eva Kišidajová &amp; JUDr. Rastislav Kišidaj</title>
 <meta name="description" content="K Legal — advokátska kancelária JUDr. Evy Kišidajovej a JUDr. Rastislava Kišidaja. Občianske, správne a obchodné právo. Košice.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -150,6 +151,16 @@ section{padding:100px 0}
 .cdetails{display:grid;gap:28px}
 .cdetail .eyebrow{margin-bottom:8px}
 .cdetail p{font-size:1.02rem}
+
+/* košice band pod kontaktom */
+.kosice-band{
+  position:relative;
+  height:clamp(220px,32vw,440px);
+  background:url('kosice.png') center 40%/cover no-repeat;
+  filter:grayscale(100%) contrast(1.04);
+  -webkit-mask-image:linear-gradient(to bottom,transparent 0%,#000 46%,#000 82%,transparent 100%);
+  mask-image:linear-gradient(to bottom,transparent 0%,#000 46%,#000 82%,transparent 100%);
+}
 
 footer{border-top:1px solid var(--line);padding:40px 0;margin-top:40px}
 
@@ -373,13 +384,16 @@ footer{border-top:1px solid var(--line);padding:40px 0;margin-top:40px}
     <div class="contact-grid">
       <p class="cbig">Napíšte nám na<br><a href="mailto:office@klegal.sk">office@klegal.sk</a><br>alebo zavolajte.</p>
       <div class="cdetails">
-        <div class="cdetail"><p class="eyebrow">Telefón</p><p><a href="tel:+421000000000">+421 000 000 000</a></p></div>
-        <div class="cdetail"><p class="eyebrow">Kancelária</p><p>Košice<br>Slovenská republika</p></div>
+        <div class="cdetail"><p class="eyebrow">Telefón</p><p><a href="tel:+421911840887">+421 911 840 887</a> · JUDr. Eva Kišidajová<br><a href="tel:+421987654321">+421 987 654 321</a> · JUDr. Rastislav Kišiday</p></div>
+        <div class="cdetail"><p class="eyebrow">Sídlo</p><p>K Legal s. r. o.<br>Werferova 1, 040 11 Košice<br>Slovenská republika</p></div>
+        <div class="cdetail"><p class="eyebrow">Fakturačné údaje</p><p>IČO: 57 720 401<br>Č. ú.: SK95 1111 0000 0018 8340 2007</p></div>
         <div class="cdetail"><p class="eyebrow">E-mail</p><p><a href="mailto:office@klegal.sk">office@klegal.sk</a></p></div>
       </div>
     </div>
   </div>
 </section>
+
+<div class="kosice-band" aria-hidden="true"></div>
 
 </main>
 
