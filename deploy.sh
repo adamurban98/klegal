@@ -16,7 +16,7 @@ FTP_DIR="klegal.sk/web"
 PASSFILE="${KLEGAL_FTPPASS:-$HOME/.klegal.ftppass}"
 
 # Only these files are published (keeps private originals/PDFs off the server).
-FILES=(index.html favicon.png eva-1x1.jpg rasto-1x1.jpg kosice.png)
+FILES=(index.html favicon.png eva-1x1.jpg rasto-1x1.jpg kosice.png obchod.jpg spravne.jpg obcan.jpg)
 
 # --- run from the script's own directory ---
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
